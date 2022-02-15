@@ -1,0 +1,17 @@
+{
+  "name": "akram8.github.io",
+  "version": "1.0.0",
+  "description": "a vitepress blog",
+  "main": "index.js",
+  "repository": "https://github.com/akram8/akram8.github.io.git",
+  "author": "akram8 <akram868@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.22.2"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
