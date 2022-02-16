@@ -8,6 +8,10 @@ module.exports = {
   themeConfig: {
     logo: '/favicon.ico',
     // logo: 'https://vuejs.org/images/logo.png',
-    darkMode: true
+    darkMode: true,
+    algolia: {
+      apiKey: 'your_api_key',
+      indexName: 'index_name'
+    }
   }
 }
