@@ -36,3 +36,10 @@ yarn docs:dev
 │  └─ index.md
 └─ package.json
 ```
+.vitepress/config.js 是配置 VitePress 站的必要的文件，其将导出一个 JavaScript 对象：
+```js
+module.exports = {
+  title: 'Hello VitePress',
+  description: 'Just playing around.'
+}
+```
