@@ -36,6 +36,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -la
+          yarn config set ignore-engines true
           yarn
           yarn docs:build
           yarn docs:dev
