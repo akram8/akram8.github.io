@@ -1,6 +1,7 @@
 ---
 title: Blog
 lang: en-US
+editLink: true
 home: true
 heroImage: /logo.jpg
 heroAlt: Logo image
