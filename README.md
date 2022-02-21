@@ -1,4 +1,5 @@
 # Create VitePress Blog
+:classical_building: GitHub Pages site is currently being built from the [gh-pages](https://github.com/akram8/akram8.github.io/tree/gh-pages) branch
 ### Start
 1. 创建并进入目录
 ```shell
