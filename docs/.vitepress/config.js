@@ -12,6 +12,22 @@ module.exports = {
     algolia: {
       apiKey: 'your_api_key',
       indexName: 'index_name'
-    }
+    },
+    head: [{text: 'Guide', link: '/guide/'}],
+    nav: [{
+      text: 'aaa',
+      link: ''
+    }],
+    sidebar: [{
+      text: 'VitePress',
+      link: './guide/index.md',
+      children: [{
+        text: 'step1',
+        link: ''
+      }, {
+        text: 'step2',
+        link: ''
+      }]
+    }]
   }
 }
