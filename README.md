@@ -41,6 +41,21 @@ yarn docs:dev
 ```js
 module.exports = {
   title: 'Hello VitePress',
-  description: 'Just playing around.'
+  description: 'Just playing around.',
+  nav: [{
+    text: '',
+    link: ''
+  }],
+  sidebar: [{
+    text: 'VitePress',
+    link: './guide/index.md',
+    children: [{
+      text: 'step1',
+      link: ''
+    }, {
+      text: 'step2',
+      link: ''
+    }]
+  }]
 }
 ```
