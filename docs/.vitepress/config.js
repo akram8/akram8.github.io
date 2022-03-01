@@ -1,6 +1,6 @@
 module.exports = {
   lang: 'en-US',
-  title: 'Hello, VitePress!',
+  title: 'Hello, World!',
   description: 'This is my first VitePress site',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   // theme and its config
@@ -14,11 +14,27 @@ module.exports = {
       indexName: 'index_name'
     },
     head: [{text: 'Guide', link: '/guide/'}],
-    nav: [{
-      text: 'aaa',
-      link: ''
-    }],
+    // nav: [{
+    //   text: 'aaa',
+    //   link: ''
+    // }],
     sidebar: [{
+      text: 'Notes',
+      link: '/guide/notes/index',
+      children: [{
+        text: 'Books',
+        link: '/guide/notes/books/'
+      }, {
+        text: 'Git',
+        link: '/guide/notes/git/'
+      }, {
+        text: 'JS',
+        children: [{
+          text: '常用方法',
+          link: '/guide/notes/js/常用方法'
+        }]
+      }]
+    }, {
       text: 'VitePress',
       link: './guide/index.md',
       children: [{
