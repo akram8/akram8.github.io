@@ -9,6 +9,17 @@
 >
 > ![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.jiemian.com%2F101%2Foriginal%2F20180627%2F153008075659653000.jpg&refer=http%3A%2F%2Fimg1.jiemian.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648798812&t=97a8bc648e7f302227bbd7e38f8d88cd)
 
+### 2. 《事实: 比尔·盖茨推荐》用数据思考，避免情绪化决策
+
+> 作者：`[瑞典]汉斯·罗斯林（Hans Rosling）`, `欧拉·罗斯林(Ola Rosling)`, `安娜·罗斯林·罗朗德(Anna Rosling Ronnlund)`
+> 译者：`张征`
+> 出版社：`文汇出版社`
+> 出版时间：`2019-05`
+>> 这本书是以我的语气来写的，貌似这是我自说自话，独立完成的工作，而事实并非如此。正如我过去十年来在全世界各地参加的TED演讲一样，这本书也是三个人的工作成果，而不是我一个人。
+>> 我只是那个站在讲台上演讲，接受掌声的人。而您听到的所有演讲，以及这本书中所有内容，都是我们三个人在过去18年中精诚合作，共同努力的结果。这三个人是我的儿子欧拉，我的儿媳安娜和我本人。
+>
+> ![](https://img14.360buyimg.com/pop/jfs/t1/208799/21/12921/96572/61beaa24Eacdccf63/d3b40443acb0a911.jpg)
+
 ### 3. 《普京传》
 > 作者：`王国章`
 > 出版社：`台海出版社`
@@ -21,6 +32,6 @@
 >
 > ![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fphoto%2F2011-8-5%2Fenterdesk.com-7D02B2047D7CBCD8B17202DD9FC9A5D5.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648799124&t=6fc17a038dcafa86a362e0011ef408b1)
 
-### 2.《百年孤独》
+### 4.《百年孤独》
 > 什么是孤独 ？
 ![Secret of happy life](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.doubanio.com%2Fview%2Fthing_review%2Fl%2Fpublic%2Fp2224588.jpg&refer=http%3A%2F%2Fimg1.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648692250&t=f1f5d60475f66f1d85806fbd0eadbfb0)
