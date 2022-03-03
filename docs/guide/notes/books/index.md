@@ -18,7 +18,7 @@
 >> 这本书是以我的语气来写的，貌似这是我自说自话，独立完成的工作，而事实并非如此。正如我过去十年来在全世界各地参加的TED演讲一样，这本书也是三个人的工作成果，而不是我一个人。
 >> 我只是那个站在讲台上演讲，接受掌声的人。而您听到的所有演讲，以及这本书中所有内容，都是我们三个人在过去18年中精诚合作，共同努力的结果。这三个人是我的儿子欧拉，我的儿媳安娜和我本人。
 >
-> ![](https://img14.360buyimg.com/pop/jfs/t1/208799/21/12921/96572/61beaa24Eacdccf63/d3b40443acb0a911.jpg)
+> ![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F7VgAHPKib9Ql6Azia99qBhZe7ZNvoDCQeTw4gDcM5OBD73Lch02DibTSGGCBVibQE5KiadC8lYSHxLteVtKFejzL1tg%2F0%3Fwx_fmt%3Dpng&refer=http%3A%2F%2Fmmbiz.qpic.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648868245&t=514da2dc7e73d460801bfbda5d554562)
 
 ### 3. 《普京传》
 > 作者：`王国章`
