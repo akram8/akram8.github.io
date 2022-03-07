@@ -33,6 +33,13 @@ module.exports = {
           text: '常用方法',
           link: '/guide/notes/js/常用方法'
         }]
+      }, {
+        text: '产品相关',
+        link: '/guide/product/',
+        children: [{
+          text: 'Axure',
+          link: '/guide/product/axure/'
+        }]
       }]
     }, {
       text: 'VitePress',
