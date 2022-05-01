@@ -32,6 +32,16 @@
 >
 > ![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fphoto%2F2011-8-5%2Fenterdesk.com-7D02B2047D7CBCD8B17202DD9FC9A5D5.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648799124&t=6fc17a038dcafa86a362e0011ef408b1)
 
-### 4.《百年孤独》
+### 4.《异类的天赋》
+> 作者：`凯文 ·达顿`
+> 出版社：``
+> 出版时间：``
+>> 享誉世界的心理学家，精神病学家凯文·达顿从大胆而严谨的心里实验出发，探寻疯子与天才之间的秘密关系。
+>> 为了获取准确的一手信息，他甚至亲自造访精神病院，不惜将自己伪装成精神病患者，接近真正的病人。
+>> 他在书中提出了一个令人震惊的观点：致命与救命，冲突与秩序，善与恶等两级之间，存在一座连通的桥梁，普通人只要稍加尝试《异类》的思考方式，就能让负面的情绪得到正向的发挥，很多难题便可迎刃而解。
+>
+>![](https://img14.360buyimg.com/pop/jfs/t1/135545/38/20647/99751/5fdb660bEe2b75362/30d8412acd04e4c4.jpg)
+
+### 5.《百年孤独》
 > 什么是孤独 ？
 ![Secret of happy life](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg1.doubanio.com%2Fview%2Fthing_review%2Fl%2Fpublic%2Fp2224588.jpg&refer=http%3A%2F%2Fimg1.doubanio.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1648692250&t=f1f5d60475f66f1d85806fbd0eadbfb0)
