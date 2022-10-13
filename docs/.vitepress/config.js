@@ -28,6 +28,9 @@ module.exports = {
         text: 'Git',
         link: '/guide/notes/git/'
       }, {
+        text: 'Docker',
+        link: '/guide/notes/docker/'
+      }, {
         text: 'JS',
         children: [{
           text: '常用方法',
