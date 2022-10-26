@@ -31,6 +31,9 @@ module.exports = {
         text: 'Docker',
         link: '/guide/notes/docker/'
       }, {
+        text: 'Nginx',
+        link: '/guide/notes/nginx/'
+      }, {
         text: 'JS',
         children: [{
           text: '常用方法',
