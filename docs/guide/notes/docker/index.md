@@ -65,3 +65,34 @@ docker rm -f nginx
 # 删除镜像 docker rmi [镜像名]
 docker rmi nginx
 ```
+
+- #### Docker 容器文件上传与下载
+上传：
+```bash
+# 上传命令
+docker cp [OPTIONS] SRC_PATH CONTAINER:DEST_PATH 
+
+# 参数说明
+OPTIONS： 可选参数为 -L，表示保持源目标中的链接；
+SRC_PATH：为主机中要上传到容器的文件路径；
+CONTAINER：为容器ID或容器名称；
+DEST_PATH：为要存放上传文件的容器路径；
+
+# 例如：windows系统下【F盘下的material】文件夹上传到 【my-nginx】容器【home】目录下
+docker cp F:/Code/gitlab/material/ my-nginx:/home/
+```
+下载：
+
+```bash
+# 下载命令为：
+docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH
+
+# 参数说明：
+OPTIONS： 可选参数为 -L，表示保持源目标中的链接；
+CONTAINER：为容器ID或容器名称；
+SRC_PATH：为容器的文件路径；
+DEST_PATH：为存放下载文件的主机目录路径；
+
+# 例如：表示下载 redis 容器中路径为 /data/temp.txt 的文件到主键目录 /home/ 中。
+docker cp redis:/data/temp.txt /home/ 
+```
