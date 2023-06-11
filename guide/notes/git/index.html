@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git命令 | Hello, World!</title>
+    <meta name="description" content="This is my first VitePress site">
+    <link rel="stylesheet" href="/assets/style.4474a05f.css">
+    <link rel="modulepreload" href="/assets/chunks/AlgoliaSearchBox.6d03e7c1.js">
+    <link rel="modulepreload" href="/assets/app.ca221e37.js">
+    <link rel="modulepreload" href="/assets/guide_notes_git_index.md.4246f535.lean.js">
+    
+    <link rel="icon" href="/favicon.ico">
+  <meta name="twitter:title" content="Git命令 | Hello, World!">
+  <meta property="og:title" content="Git命令 | Hello, World!">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme"><header class="nav-bar" data-v-675d8756><div class="sidebar-button" data-v-675d8756><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class></path></svg></div><a class="nav-bar-title" href="/" aria-label="Hello, World!, back to home" data-v-675d8756 data-v-cc01ef16><img class="logo" src="/favicon.ico" alt="Logo" data-v-cc01ef16> Hello, World!</a><div class="flex-grow" data-v-675d8756></div><div class="nav" data-v-675d8756><!----></div><!--[--><!--[--><div class="algolia-search-box" id="docsearch"></div><!--]--><!--]--></header><aside class="sidebar" data-v-83e92a68><!----><!--[--><!--]--><ul class="sidebar-links" data-v-83e92a68><!--[--><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/notes/index">Notes</a><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/notes/books/">Books</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item active" href="/guide/notes/git/">Git</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/notes/docker/">Docker</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/notes/nginx/">Nginx</a><!----></li><li class="sidebar-link"><p class="sidebar-link-item">JS</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/notes/js/常用方法">常用方法</a><!----></li></ul></li><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/product/">产品相关</a><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/guide/product/axure/">Axure</a><!----></li></ul></li></ul></li><li class="sidebar-link"><a class="sidebar-link-item" href="/./guide/index.md">VitePress</a><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/">step1</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/">step2</a><!----></li></ul></li><!--]--></ul><!--[--><!--]--></aside><div class="sidebar-mask"></div><main class="page" data-v-7eddb2c4><div class="container" data-v-7eddb2c4><!--[--><!--]--><div style="position:relative;" class="content" data-v-7eddb2c4><div><h1 id="git命令" tabindex="-1">Git命令 <a class="header-anchor" href="#git命令" aria-hidden="true">#</a></h1><h3 id="配置git的全局设置" tabindex="-1">配置Git的全局设置 <a class="header-anchor" href="#配置git的全局设置" aria-hidden="true">#</a></h3><h5 id="查看当前用户" tabindex="-1">查看当前用户 <a class="header-anchor" href="#查看当前用户" aria-hidden="true">#</a></h5><div class="language-bash"><pre><code><span class="token function">git</span> config <span class="token parameter variable">--list</span> // 查看配置
+<span class="token function">git</span> config user.name // 目标用户名
+<span class="token function">git</span> config user.email // 目标邮箱名
+</code></pre></div><h5 id="设置全局用户" tabindex="-1">设置全局用户 <a class="header-anchor" href="#设置全局用户" aria-hidden="true">#</a></h5><div class="language-bash"><pre><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">&quot;your name&quot;</span>
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">&quot;your email address&quot;</span>
+</code></pre></div><p>当然，你还可以直接修改git的配置文件的方式来进行修改。 打开全局的.gitconfig文件的命令为：vi ~/.gitconfig; 然后在文件中直接修改即可。</p><h3 id="克隆远程库" tabindex="-1">克隆远程库 <a class="header-anchor" href="#克隆远程库" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> clone <span class="token operator">&lt;</span>url<span class="token operator">&gt;</span> // 克隆远程版本库
+<span class="token function">git</span> init // 初始化本地版本库
+</code></pre></div><h3 id="代码更新及提交" tabindex="-1">代码更新及提交 <a class="header-anchor" href="#代码更新及提交" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> pull origin master
+<span class="token function">git</span> <span class="token function">add</span> <span class="token parameter variable">-A</span>
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&#39;auto commit&#39;</span> // 单引号里面是描述信息
+<span class="token function">git</span> push origin master
+</code></pre></div><h3 id="查看提交历史" tabindex="-1">查看提交历史 <a class="header-anchor" href="#查看提交历史" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> log // 会按提交时间列出所有的更新（包括作者名字和电子邮件，提交时间，提交说明），最近的更新排在最上面。
+<span class="token function">git</span> log <span class="token parameter variable">-3</span> // 最近三次的提交记录
+<span class="token function">git</span> log <span class="token parameter variable">-p</span> // 常用-p选项展开每次提交的内容差异
+<span class="token function">git</span> log <span class="token parameter variable">-p</span> <span class="token parameter variable">-2</span>  // 最近两次提交内容差异
+
+<span class="token function">git</span> blame <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> // 以列表方式查看指定文件的提交历史
+</code></pre></div><h3 id="合并与衍合" tabindex="-1">合并与衍合 <a class="header-anchor" href="#合并与衍合" aria-hidden="true">#</a></h3><div class="language-javascript"><pre><code>git merge <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> <span class="token comment">// 合并指定分支到当前分支</span>
+git rebase <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> <span class="token comment">// 衍合指定分支到当前分支</span>
+</code></pre></div><h3 id="分支与标签" tabindex="-1">分支与标签 <a class="header-anchor" href="#分支与标签" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> branch // 显示所有本地分支
+<span class="token function">git</span> checkout <span class="token operator">&lt;</span>branch/tag<span class="token operator">&gt;</span> // 切换到指定分支或标签
+<span class="token function">git</span> branch <span class="token operator">&lt;</span>new-branch<span class="token operator">&gt;</span> // 创建新分支
+<span class="token function">git</span> branch <span class="token parameter variable">-d</span> <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> // 删除本地分支
+<span class="token function">git</span> tag // 列出所有本地标签
+<span class="token function">git</span> tag <span class="token operator">&lt;</span>tagname<span class="token operator">&gt;</span> // 基于最新提交创建标签
+<span class="token function">git</span> tag <span class="token parameter variable">-d</span> <span class="token operator">&lt;</span>tagname<span class="token operator">&gt;</span> // 删除标签
+</code></pre></div><h3 id="远程操作" tabindex="-1">远程操作 <a class="header-anchor" href="#远程操作" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> remote <span class="token parameter variable">-v</span> // 查看远程版本库信息
+<span class="token function">git</span> remote show <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span> // 查看指定远程版本库信息
+<span class="token function">git</span> remote <span class="token function">add</span> <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>url<span class="token operator">&gt;</span> // 添加远程版本库
+
+<span class="token function">git</span> fetch <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span> // 从远程库获取代码
+<span class="token function">git</span> pull <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> // 下载代码及快速合并
+<span class="token function">git</span> push <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>branch<span class="token operator">&gt;</span> // 上传代码及快速合并
+<span class="token function">git</span> push <span class="token operator">&lt;</span>remote<span class="token operator">&gt;</span> :<span class="token operator">&lt;</span>branch/tag-name<span class="token operator">&gt;</span> // 删除远程分支或标签
+
+<span class="token function">git</span> push <span class="token parameter variable">--tags</span> // 上传所有标签
+</code></pre></div><h3 id="修改和提交" tabindex="-1">修改和提交 <a class="header-anchor" href="#修改和提交" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> status // 查看状态
+<span class="token function">git</span> <span class="token function">diff</span> // 查看历史变更内容
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span> // 跟踪所有改动过的文件
+<span class="token function">git</span> <span class="token function">add</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> // 跟踪指定的文件
+<span class="token function">git</span> <span class="token function">mv</span> <span class="token operator">&lt;</span>old<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>new<span class="token operator">&gt;</span> // 文件改名
+<span class="token function">git</span> <span class="token function">rm</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> // 删除文件
+<span class="token function">git</span> <span class="token function">rm</span> <span class="token parameter variable">--cached</span> <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> // 停止跟踪文件但不删除
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&quot;commit message&quot;</span> // 提交所有更新过的文件
+<span class="token function">git</span> commit <span class="token parameter variable">--amend</span> // 修改最后一次提交
+</code></pre></div><h3 id="撤销" tabindex="-1">撤销 <a class="header-anchor" href="#撤销" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> reset <span class="token parameter variable">--hard</span> HEAD // 撤销工作目录中所有未提交文件的修改内容
+<span class="token function">git</span> checkout HEAD <span class="token operator">&lt;</span>file<span class="token operator">&gt;</span> // 撤销指定的未提交文件的修改内容
+<span class="token function">git</span> revert <span class="token operator">&lt;</span>commit<span class="token operator">&gt;</span> // 撤销指定的提交
+</code></pre></div><h3 id="添加（git-add）提交（git-commit）后撤销" tabindex="-1">添加（git add）提交（git commit）后撤销 <a class="header-anchor" href="#添加（git-add）提交（git-commit）后撤销" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token comment"># git add 添加多余文件</span>
+<span class="token function">git</span> reset HEAD  // 如果后面什么都不跟的话 就是上一次add 里面的全部撤销了
+<span class="token function">git</span> reset HEAD xxx/xxx/xxx.js  // 对某个文件进行撤销
+
+<span class="token comment"># git commit 错误提交</span>
+<span class="token function">git</span> log 查看节点 
+然后
+<span class="token function">git</span> reset commit_id （回退到上一个 提交的节点 代码还是原来你修改的） 
+<span class="token function">git</span> reset –hard commit_id （回退到上一个commit节点， 代码也发生了改变，变成上一次的）
+</code></pre></div><h3 id="本地修改的文件还原" tabindex="-1">本地修改的文件还原 <a class="header-anchor" href="#本地修改的文件还原" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token comment"># 单个文件还原</span>
+<span class="token function">git</span> checkout + 文件名
+
+<span class="token comment"># 整个目录</span>
+<span class="token function">git</span> checkout .<span class="token punctuation">(</span>这个点要加上的<span class="token punctuation">)</span>
+</code></pre></div><h3 id="暂存" tabindex="-1">暂存 <a class="header-anchor" href="#暂存" aria-hidden="true">#</a></h3><div class="language-bash"><pre><code><span class="token function">git</span> stash        // 代码暂存
+
+<span class="token function">git</span> stash pop    // 吐出暂存
+
+<span class="token function">git</span> stash list   // 查看暂存栈
+
+<span class="token function">git</span> stash <span class="token function">clear</span>  // 栈清空
+</code></pre></div></div></div><footer class="page-footer" data-v-7eddb2c4 data-v-07c132fc><div class="edit" data-v-07c132fc><div class="edit-link" data-v-07c132fc data-v-1ed99556><!----></div></div><div class="updated" data-v-07c132fc><!----></div></footer><div class="next-and-prev-link" data-v-7eddb2c4 data-v-38ede35f><div class="container" data-v-38ede35f><div class="prev" data-v-38ede35f><a class="link" href="/guide/notes/books/" data-v-38ede35f><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-prev" data-v-38ede35f><path d="M19,11H7.4l5.3-5.3c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-7,7c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.2-0.1,0.5,0,0.8c0.1,0.1,0.1,0.2,0.2,0.3l7,7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L7.4,13H19c0.6,0,1-0.4,1-1S19.6,11,19,11z"></path></svg><span class="text" data-v-38ede35f>Books</span></a></div><div class="next" data-v-38ede35f><a class="link" href="/guide/notes/docker/" data-v-38ede35f><span class="text" data-v-38ede35f>Docker</span><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-next" data-v-38ede35f><path d="M19.9,12.4c0.1-0.2,0.1-0.5,0-0.8c-0.1-0.1-0.1-0.2-0.2-0.3l-7-7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l5.3,5.3H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h11.6l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l7-7C19.8,12.6,19.9,12.5,19.9,12.4z"></path></svg></a></div></div></div><!--[--><!--]--></div></main></div><!----><!--]--></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"guide_index.md\":\"80412b44\",\"guide_notes_books_index.md\":\"15904fbb\",\"guide_notes_docker_index.md\":\"ffa14edb\",\"guide_notes_git_index.md\":\"4246f535\",\"guide_notes_index.md\":\"5a8054f3\",\"guide_notes_js_常用方法.md\":\"38e73345\",\"guide_notes_nginx_index.md\":\"e5567d50\",\"guide_product_axure_index.md\":\"52e4daa4\",\"guide_product_index.md\":\"e804746e\",\"index.md\":\"0f5b5dc3\"}")</script>
+    <script type="module" async src="/assets/app.ca221e37.js"></script>
+    
+  </body>
+</html>
